@@ -42,7 +42,7 @@
                 alt="Logo Tecnológica del Oriente"
               )
             .col-lg.px-0.d-none.d-lg-block
-              p.footer-text.mb-0 Todo el contenido de este curso es propiedad intelectual de [Nombre de la Universidad] y está protegido por derechos de autor. No puede ser reproducido, distribuido, modificado ni compartido sin su autorización por escrito.
+              p.footer-text.mb-0 Todo el contenido de este curso es propiedad intelectual de Corporación Tecnológica del Oriente y está protegido por derechos de autor. No puede ser reproducido, distribuido, modificado ni compartido sin su autorización por escrito.
               
 </template>
 
