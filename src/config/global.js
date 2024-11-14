@@ -22,7 +22,8 @@ export default {
       {
         nombreRuta: 'inicio',
         icono: 'fas fa-home',
-        titulo: 'Volver al inici',
+        titulo: 'Volver al inicio',
+        unidad: 'Unidad 1',
       },
       {
         nombreRuta: 'introduccion',
@@ -34,106 +35,33 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Unidad',
+        titulo: 'Bases genéticas del desarrollo humano',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Título de segundo nivel',
-            hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Acordeón',
-            hash: 't_1_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo: 'Slider',
-            hash: 't_1_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.4',
-            titulo: 'Pestañas',
-            hash: 't_1_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.5',
-            titulo: 'Infografia interactiva',
-            hash: 't_1_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.6',
-            titulo: 'Infografia interactiva',
-            hash: 't_1_6',
-          },
-        ],
+        subMenu: [],
       },
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Unidad',
+        titulo: 'Principios de genética humana y herencia',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Texto destacado',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Llamado a la acción - Recursos externos',
-            hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Audios',
-            hash: 't_2_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.4',
-            titulo: 'Listado',
-            hash: 't_2_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.5',
-            titulo: 'Línea de tiempo',
-            hash: 't_2_5',
-          },
-        ],
+        subMenu: [],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Unidad',
+        titulo: 'Bases biológicas del desarrollo y diferenciación celular',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo: 'Carrusel',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Tablas',
-            hash: 't_3_2',
-          },
-        ],
+        subMenu: [],
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'Factores genéticos y ambientales en el desarrollo humano',
+        desarrolloContenidos: true,
+        subMenu: [],
       },
     ],
     subMenu: [
@@ -161,7 +89,7 @@ export default {
       {
         icono: 'fas fa-file-download',
         titulo: 'Descargar PDF',
-        download: 'downloads/material.zip',
+        download: 'downloads/Biologia desarrollo humano_U1.zip',
       },
       {
         icono: 'fas fa-download',
@@ -178,109 +106,156 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
+        'Árvelo, F. Cotte, C. Sojo, F. (2014). Células madre y Cáncer. Revista. Invest. clín vol.55 no.4 Maracaibo dic. 2014.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://ve.scielo.org/scielo.php?script=sci_arttext&pid=S0535-51332014000400008',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA:',
+        'Ayala, F (2017). ¿Clonar Humanos? Ingeniería Genética y Futuro de la Humanidad (175p). Madrid, España: Alianza Editorial.',
+      link: 'e-libro',
+    },
+    {
+      referencia:
+        'Curtis H., Barnes N., Massarini A., Schnerck A., BIOLOGÍA. Edición 7º. Editorial Médica Panamericana (2008). Capítulo 8. Desarrollo: de la ejecución de un programa genético',
+      link: 'Se anexa PDF',
+    },
+    {
+      referencia:
+        'Förster, J. López, I. (2022). Neurodesarrollo humano: un proceso de cambio continuo de un sistema abierto y sensible al contexto. Revista Médica Clínica Las Condes',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'https://www.elsevier.es/es-revista-revista-medica-clinica-las-condes-202-articulo-neurodesarrollo-humano-un-proceso-cambio-S0716864022000724',
     },
     {
       referencia:
-        '<em>Harpersbazaar</em>. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
+        'Gutiérrez, F. (2010). Capítulo 2: Reproducción Celular (48p). *Biología: la célula* (159 p). Firmas Press.',
+      link: 'e-libro',
     },
     {
       referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
+        'Solari, A. J (2007). Capítulo 1. Desarrollo Histórico de la Genética Humana. Genética Humana: fundamentos y aplicaciones en medicina (568p.) Buenos Aires, Argentina: Médica Panamericana.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
-    },
-    {
-      referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
-    },
-    {
-      referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
-    },
-    {
-      referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
-    },
-    {
-      referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'https://bibliotecas.unr.edu.ar/muestra/medica_panamericana/9789500602693.pdf',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Ácido desoxirribonucleico - ADN',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'Es la molécula que contiene la información genética esencial para el desarrollo y funcionamiento de todos los seres vivos, así como de algunos virus. Su estructura se compone de dos cadenas de nucleótidos que forman una doble hélice. Cada nucleótido está formado por un azúcar (desoxirribosa), un grupo fosfato y una base nitrogenada (adenina, guanina, citosina o timina)',
     },
     {
-      termino: '<em>Suftware</em>',
+      termino: 'Alelo',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Es una de las diferentes versiones de un gen que se pueden encontrar en un organismo. Cada individuo hereda dos alelos para cada gen, uno de cada progenitor. Estos alelos pueden ser idénticos, lo que se denomina homocigoto, o diferentes, conocido como heterocigoto',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Alelo Dominante',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'Es una forma de un gen que se expresa en el fenotipo de un organismo, incluso si solo hay una copia presente. Esto significa que, para que un rasgo asociado a un alelo dominante se manifieste, basta con que uno de los dos alelos heredados (uno de cada progenitor) sea dominante',
     },
     {
-      termino: '<em>Áectores</em>',
+      termino: 'Alelo recesivo',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'A diferencia de un alelo dominante, un alelo recesivo necesita estar presente en dos copias para que su rasgo se exprese',
     },
     {
-      termino: 'Moda',
+      termino: 'Autosoma',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'Tipo de cromosoma que no está involucrado en la determinación del sexo de un organismo. En los humanos los cromosomas del 1 al 22 son autosomas',
     },
     {
-      termino: 'Diseña',
+      termino: 'Bases nitrogenadas',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Son compuestos orgánicos esenciales que forman parte de los ácidos nucleicos, como el ADN y el ARN. Estas bases son fundamentales para la codificación de la información genética y se clasifican en dos grupos principales: purinas y pirimidinas',
     },
     {
-      termino: 'DIseño',
+      termino: 'Célula Diploide',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Son todas las células humanas de tipo somáticas que tienen 23 pares de cromosomas. Cada uno de los cromosomas de los pares, proviene de uno de los progenitores',
     },
     {
-      termino: 'Tipología',
+      termino: 'Célula Haploide',
       significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+        'Son las células sexuales humanas (óvulos y espermatozoides) que contienen un solo juego de cromosomas. Son haploides al culminar el proceso de reproducción celular por Meiosis',
     },
     {
-      termino: 'Bidimensional',
+      termino: 'Célula Sexual',
       significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
+        'Son también denominadas gametos y fundamentales en la reproducción sexual de los organismos. Existen dos tipos principales de células sexuales: óvulos y espermatozoides. Son células haploides',
     },
     {
-      termino: 'Interés Inferior del menor',
+      termino: 'Célula Somática',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Son todas aquellas que constituyen la mayor parte de los tejidos y órganos en los organismos pluricelulares como los seres humanos',
     },
     {
-      termino: 'Interseccionalidad',
+      termino: 'Cigoto',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Es la primera etapa del desarrollo embrionario y se forma inmediatamente después de la fecundación (unión del óvulo y el espermatozoide). Es una célula unicelular que contiene el material genético de ambos progenitores, es decir, 46 cromosomas (23 de cada uno)',
     },
     {
-      termino: 'Interés superior del menor',
+      termino: 'Cromosoma',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Son estructuras que se encuentran en el núcleo de las células eucariotas. Compuestas por ADN y proteínas. Los cromosomas son fundamentales para el almacenamiento y la transmisión de la información genética de un organismo en la reproducción celular',
+    },
+    {
+      termino: 'Eucariota',
+      significado:
+        'Corresponde al tipo de célula que tiene núcleo definido, rodeado por una membrana nuclear. Esta cualidad permite la clasificación taxonómica de organismos',
+    },
+    {
+      termino: 'Fenotipo',
+      significado:
+        'Son las características observables de un organismo: rasgos físicos, bioquímicos y conductuales, en interacción con el ambiente',
+    },
+    {
+      termino: 'Gen',
+      significado:
+        'Unidad básica de herencia en los organismos, compuesta por una secuencia de nucleótidos en el ADN. Los genes son los responsables de codificar la información necesaria para la síntesis de proteínas',
+    },
+    {
+      termino: 'Genotipo',
+      significado: 'Es la composición genética de los organismos',
+    },
+    {
+      termino: 'Heterocigoto',
+      significado:
+        'Es un organismo que tiene dos alelos diferentes para un mismo gen en sus cromosomas homólogos. Esto significa que, en un locus específico, uno de los alelos proviene del padre y el otro de la madre, resultando en una combinación de características genéticas distintas',
+    },
+    {
+      termino: 'Histonas',
+      significado:
+        'Son proteínas fundamentales en la organización y regulación del ADN dentro de las células eucariotas. Estas proteínas permiten el empaquetamiento del ADN en cromosomas, lo que facilita su almacenamiento en el núcleo celular',
+    },
+    {
+      termino: 'Homocigoto',
+      significado:
+        'Es lo contrario a heterocigoto. En este caso, es un organismo que tiene dos alelos idénticos para un mismo gen en sus cromosomas homólogos. Lo que significa que ambos alelos, heredados de cada progenitor, son iguales, lo que puede influir en la expresión de características específicas',
+    },
+    {
+      termino: 'Multicelular',
+      significado: 'Seres vivos compuestos por más de una célula',
+    },
+    {
+      termino: 'Mutación',
+      significado:
+        'Cualquier cambio en la secuencia de ADN de un organismo, puede ocurrir de manera natural o ser inducida por factores externos como radiación o sustancias químicas. Estas alteraciones pueden tener diversas consecuencias en el organismo, clasificándose generalmente en tres categorías: beneficiosas, perjudiciales y neutras',
+    },
+    {
+      termino: 'Reproducción celular',
+      significado:
+        'Proceso mediante el cual una célula madre se divide para formar nuevas células hijas. Este proceso es esencial para el crecimiento, la reparación de tejidos y la reproducción en organismos unicelulares y multicelulares',
+    },
+    {
+      termino: 'Traducción de ADN',
+      significado:
+        'Proceso biológico que ocurre después de la transcripción del ADN por parte del ARN mensajero (ARNm); como resultado, se genera una cadena de aminoácidos, formando así una proteína. Este proceso ocurre en los ribosomas dentro del citoplasma de la célula y es fundamental para la expresión génica',
+    },
+    {
+      termino: 'Transcripción de ADN',
+      significado:
+        'Primer paso en la expresión genética, donde la información contenida en la secuencia de ADN se copia a una molécula de ARN, específicamente ARN mensajero (ARNm). Este proceso es fundamental para la síntesis de proteínas y se lleva a cabo en el núcleo de las células eucariotas',
     },
   ],
   complementario: [

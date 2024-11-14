@@ -17,3 +17,109 @@
 
   100%
     transform: translateY(0px)
+
+.container.tarjeta
+  overflow: hidden
+
+.box-shadow
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1)
+
+.text-morado
+  color: #5830E2 !important
+
+.bg-full-width
+  background-size: cover
+  background-repeat: no-repeat
+  margin-inline: -3.3rem
+
+.bg-rojo-claro
+  background-color: #FCDFDB
+.bg-azul-claro
+  background-color: #DBE7FC
+.bg-rosa
+  background-color: #F9E4FE
+.bg-amarillo
+  background-color: #FDF3D2
+.bg-gris
+  background-color: #E2E9F3
+.bg-gris-claro
+  background-color: #F5F7FB
+.bg-gris-claro-2
+  background-color: #EBF0F7
+.bg-morado
+  background-color: #5830E2
+.bg-modaro-oscuro
+  background-color: #301A7B
+.bg-modaro-claro
+  background-color: #EDE9FB
+
+.border-none
+  border: 0px !important
+
+.border-left-gris
+  border-left: 1px solid #D9D9D9 !important
+.rounded-8px
+  border-radius: 8px
+
+.ui_link
+  color: #015FFC
+  font-weight: bold
+
+.hover-zoom
+  transition: all 0.2s ease-in-out
+.hover-zoom:hover
+  transition: all 0.2s ease-in-out
+  transform: scale(1.05) !important
+
+// BG FONDO
+.bg-fondo
+  &-1
+    background-image: url("../assets/componentes/bg-1.png") !important
+    background-position: top
+
+.bg-full-width
+  background-size: cover
+  background-repeat: no-repeat
+  margin-inline: -3.3rem
+
+// ACORDEON
+.acordion__header
+  background-color: #F9E4FE!important
+.acordion__contenido
+  background-color: #F9E4FE!important  
+.acordion__header--active
+  background-color: #6E008A!important
+  h4, i
+    color: $white !important
+    font-weight: bold
+
+$custom-card-border-radius: 8px
+$custom-card-shadow: 0 4px 8px rgba(0,0,0,0.1)
+$custom-card-text-bg: #FFF
+$custom-card-text-padding: 15px
+$custom-card-text-font-size: 14px
+$custom-card-img-height: 322px
+.custom-image-card
+  border-radius: $custom-card-border-radius
+  overflow: hidden
+  box-shadow: $custom-card-shadow
+  height: 100%
+  background-color: $custom-card-text-bg
+  transition: transform 0.3s ease 
+  cursor: pointer
+  &:hover
+    transform: scale(1.01)
+  &__image
+    height: $custom-card-img-height
+    object-fit: cover
+
+.cursor-pointer
+  cursor: pointer
+
+.card_hover
+  .custom-image-card
+    transition: all 0.2s ease-in-out
+  .custom-image-card:hover
+    background-color: #6A2C83
+    p
+      color: $white !important

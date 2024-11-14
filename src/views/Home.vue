@@ -20,14 +20,13 @@
           //- Columna derecha con información
           .col-xl-7.info-section
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
-              p.home-main-title Desarrollo Físico y Motor en Niños y Adolescentes
-              h1.home-title.mb-4.text-uppercase Desarrollo y Ciclo Vital: Niños y Adolescentes
-              p.descripcion.mb-4 Esta unidad, Desarrollo Físico y Motor en Niños y Adolescentes, explora los cambios corporales y habilidades motrices clave desde la niñez hasta la adolescencia. Los estudiantes comprenderán cómo factores como genética, nutrición y entorno influyen en el crecimiento y las transformaciones hormonales de la pubertad, lo cual les permitirá apoyar a los jóvenes en cada etapa de su desarrollo.
-
-              p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold ¡El éxito está en cada esfuerzo que haces hoy!
+              p.home-main-title Bases genéticas del desarrollo humano
+              h1.home-title.mb-4.text-uppercase Biología del Desarrollo Humano
+              p.descripcion.mb-3 Desde el origen de la vida, el conocimiento sobre la genética ha sido fundamental para comprender la evolución y el desarrollo de los seres humanos. En esta primera unidad, se estudiarán las bases genéticas del desarrollo humano, analizando cómo, a partir de una única célula, el cigoto, se inician procesos de diferenciación que llevan a la formación de tejidos y órganos en el ser humano.
+              p.descripcion.mb-4 Se explorarán temas como los principios de la genética humana y la herencia, el rol del ADN y las células en la transmisión de características, y la influencia de factores genéticos y ambientales en el desarrollo cognitivo, emocional y conductual. Este conocimiento permitirá a los estudiantes aplicar conceptos biológicos en contextos educativos y clínicos.
 
               .button-container.mt-auto
-                router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'tema1' }")
+                router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")
                   div.iniciar-btn-container.w-100.w-md-auto
                     span.iniciar-btn-text INICIAR
                     div.icon
@@ -141,11 +140,12 @@ export default {
 .iniciar-btn-container
   .iniciar-btn-text
     transition: all 0.25s ease-in-out
-    background-color: #9EF0FD !important
-    color: #0B0A0A !important
+    background-color: #5830E2 !important
+    color: $white !important
   .icon
     transition: all 0.25s ease-in-out
-    background-color: #083E61 !important
+    background-color: #301A7B !important
+    color: $white !important
   &:hover
     .icon
       transform: scale(1.06)
