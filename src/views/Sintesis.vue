@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.creditos-vista
-  BannerInterno(:titulo="'FUNDAMENTACIÓN JURÍDICA - unidad 1'" :subTitulo="'SÍNTESIS'")
+  BannerInterno(:titulo="'unidad 1. Bases genéticas del desarrollo humano'" :subTitulo="'SÍNTESIS'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     p.mb-4.mb-md-5 La Unidad 1, "Bases genéticas del desarrollo humano", explora los fundamentos genéticos y biológicos que sustentan el desarrollo humano. Inicia con una revisión de la célula como unidad fundamental de la vida y su información genética contenida en el ADN. Se analiza cómo el ADN y los procesos de herencia influyen en las características y el desarrollo de los individuos, desde la diferenciación celular hasta la formación de tejidos y órganos.
     p.mb-4.mb-md-5 Esta unidad establece una base sólida para entender el impacto de los factores genéticos y ambientales en el desarrollo cognitivo, emocional y conductual, proporcionando a los estudiantes conocimientos aplicables en contextos educativos y clínicos. Este enfoque integral les permitirá interpretar y aplicar conceptos biológicos para comprender el desarrollo humano en su totalidad.
