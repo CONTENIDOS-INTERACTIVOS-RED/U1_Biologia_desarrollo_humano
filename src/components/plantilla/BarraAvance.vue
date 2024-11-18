@@ -1,7 +1,7 @@
 <template lang="pug">
 .barra-avance(:class="[showBarra ? 'barra-avance--open' : 'barra-avance--close']")
 
-  span.me-auto.ps-2.ms-1 {{ `${menuData[0].unidad}` }}
+  span.me-auto.ps-2.ms-1 Unidad 1
 
   router-link.barra-avance__boton--regresar(
     :class="[!controlLinks.back.name && 'barra-avance__boton--disable']"
