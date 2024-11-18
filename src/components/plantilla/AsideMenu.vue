@@ -33,7 +33,7 @@ aside
                     :to="{ name: item.nombreRuta , hash: `#${subItem.hash}` }"
                     @click.native="toggleMenu(false)"
                   )
-                    span.title(v-if="item.hasOwnProperty('numero')" v-html="subItem.numero")
+                    span(v-if="item.hasOwnProperty('numero')" v-html="subItem.numero")
                     span(v-html="subItem.titulo")
 
         ul.aside-menu__sec-menu
@@ -243,6 +243,8 @@ export default {
   background-color: white
   span
     font-weight: 900
+  .title
+    font-size: 20.25px
 
 .main-menu-enter-active
   animation: main-menu-open-animation .3s
