@@ -20,12 +20,6 @@ export default {
   menuPrincipal: {
     menu: [
       {
-        nombreRuta: 'inicio',
-        icono: 'fas fa-home',
-        titulo: 'Volver al inicio',
-        unidad: 'Unidad 1',
-      },
-      {
         nombreRuta: 'introduccion',
         icono: 'fas fa-info-circle',
         titulo: 'Introducción',
