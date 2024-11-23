@@ -20,7 +20,7 @@
           //- Columna derecha con información
           .col-xl-7.info-section
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
-              p.home-main-title Biología del Desarrollo Humano
+              p.home-main-title.text-uppercase Biología del Desarrollo Humano
               h1.home-title.mb-4.text-uppercase Bases genéticas del desarrollo humano
               p.descripcion.mb-3 Desde el origen de la vida, el conocimiento sobre la genética ha sido fundamental para comprender la evolución y el desarrollo de los seres humanos. En esta primera unidad, se estudiarán las bases genéticas del desarrollo humano, analizando cómo, a partir de una única célula, el cigoto, se inician procesos de diferenciación que llevan a la formación de tejidos y órganos en el ser humano.
               p.descripcion.mb-4 Se explorarán temas como los principios de la genética humana y la herencia, el rol del ADN y las células en la transmisión de características, y la influencia de factores genéticos y ambientales en el desarrollo cognitivo, emocional y conductual. Este conocimiento permitirá a los estudiantes aplicar conceptos biológicos en contextos educativos y clínicos.
