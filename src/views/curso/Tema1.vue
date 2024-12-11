@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:titulo="'unidad 1. Bases genéticas del desarrollo humano'" :subTitulo="'1. Bases genéticas del desarrollo humano'")
+  BannerInterno.text-uppercase(:titulo="'unidad 1. Bases genéticas del desarrollo humano'" :subTitulo="'1. Bases genéticas del desarrollo humano'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     p.mb-5 Se estima que el ser humano está conformado por 100 billones de células, todas ellas del tipo eucariota, que se caracterizan por tener un núcleo definido que aloja y protege la información genética, o ADN. El ADN es la molécula fundamental de la herencia, se encuentra en gran parte en el núcleo celular, pero se ha identificado ADN alojado en las mitocondrias (ADN mitocondrial).
 
@@ -17,6 +17,7 @@
       img.mb-2(src='@/assets/curso/unidad/img-11.png', alt='Texto que describa la imagen')
       figcaption <strong>Nota.</strong> Tomado y adaptado de <a class="ui_link" href="https://www.genome.gov/es/genetics-glossary/Proyecto-Genoma-Humano">https://www.genome.gov/es/genetics-glossary/Proyecto-Genoma-Humano</a>
 
+    p.mb-4 En total, el ADN humano consta de unos 3 mil millones de bases, y más del 99 por ciento de esas bases son iguales en todas las personas (incluso es posible definir el parecido de esas bases entre especies distintas, como en el caso de los chimpancés, gorilas y humanos). 
 
     .row.mb-4
       .d-none.d-xl-block.col-xl-5.col-xxl-4.mx-auto.mt-4.mt-xl-0(data-aos="fade-right")
@@ -91,14 +92,14 @@
         p.mb-4 Como se planteó anteriormente, hay dos tipos de reproducción o división celular:
         AcordionA(tipo="b")
           .div(titulo="Mitosis")
-            p Es elemental para el crecimiento y el mantenimiento de todos los tejidos y órganos, pues al finalizar las etapas, se generan dos células idénticas a la célula original. Las células que realizan la mitosis son somáticas, es decir, aquellas que conforman los tejidos y órganos del cuerpo y que son <strong>diploides</strong>, denominación asociada a la cantidad de cromosomas. Las células diploides mantienen la misma cantidad de cromosomas que la célula madre (2N).
-
+            p.mb-4 Es elemental para el crecimiento y el mantenimiento de todos los tejidos y órganos, pues al finalizar las etapas, se generan dos células idénticas a la célula original. Las células que realizan la mitosis son somáticas, es decir, aquellas que conforman los tejidos y órganos del cuerpo y que son <strong>diploides</strong>, denominación asociada a la cantidad de cromosomas. Las células diploides mantienen la misma cantidad de cromosomas que la célula madre (2N).
+            p En el caso de los humanos, las células diploides contienen 23 pares de cromosomas.
           .div(titulo="Meiosis")
             p Es el proceso de reproducción que da origen a las células sexuales o gametos (óvulos y espermatozoides), las cuales más adelante darán origen a un nuevo ser vivo a través de la fecundación. Tanto el óvulo como el espermatozoide, cuentan con la mitad de su ADN, pues en la reproducción o división celular se generan cuatro células hijas, cada una con la mitad de los cromosomas que la célula original <strong>(células haploides)</strong>.
       .col-12.col-lg-5.d-none.d-lg-block(data-aos="fade-left")
         img.-mt-18px(src='@/assets/curso/unidad/img-16.png', alt='Texto que describa la imagen')
 
-
+    p.mb-4 Ahora bien, la formación de los gametos lleva el nombre de <strong>gametogénesis</strong> y para el caso de la formación de los espermatozoides, se denomina <strong>espermatogénesis</strong> y ocurre en los <strong>testículos</strong>. La formación de gametos femeninos que son los <strong>óvulos</strong>, el proceso se llama <strong>ovogénesis</strong> y se lleva a cabo en los <strong>ovarios</strong>.
     p.mb-4 <strong>Figura 2.</strong> Comparación procesos de mitosis y meiosis
     
     img.mb-5(src='@/assets/curso/unidad/img-17.png', alt='Texto que describa la imagen')

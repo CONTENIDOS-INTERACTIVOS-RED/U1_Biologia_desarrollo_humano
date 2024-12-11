@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.referencias
-  BannerInterno(icono="fas fa-book" subTitulo="Referencias bibliográficas" titulo="FUNDAMENTACIÓN JURÍDICA - unidad 1")
+  BannerInterno.text-uppercase(icono="fas fa-book" subTitulo="Referencias bibliográficas" titulo="unidad 1. Bases genéticas del desarrollo humano")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
     .referencias__item.d-flex(v-for="(ref, index) in orderedData" :key="ref.link")
       span.py-4.d-block.me-3(v-html="index + 1")

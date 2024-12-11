@@ -1,29 +1,29 @@
 <template lang="pug">
-.barra-avance(:class="[showBarra ? 'barra-avance--open' : 'barra-avance--close']")
-
-  span.me-auto.ps-2.ms-1 Unidad 1
-
-  router-link.barra-avance__boton--regresar(
-    :class="[!controlLinks.back.name && 'barra-avance__boton--disable']"
-    :to="{name: controlLinks.back.name, hash: controlLinks.back.hash ? `#${controlLinks.back.hash}` : ''}"
-  )
-    div.content
-      i.me-3(class="fas fa-arrow-left")
-      span Regresar
+  .barra-avance(:class="[showBarra ? 'barra-avance--open' : 'barra-avance--close']")
   
-  //- .barra-avance__barra
-  //-   .barra-avance__barra--blanca
-  //-   .barra-avance__barra--amarilla
-
-  router-link.barra-avance__boton--siguiente(
-    :class="[!controlLinks.next.name && 'barra-avance__boton--disable']"
-    :to="{name: controlLinks.next.name, hash: controlLinks.next.hash ? `#${controlLinks.next.hash}` : ''}"
-  )
-    div.content
-      span.me-3 Siguiente
-      i(class="fas fa-arrow-right")
-
-</template>
+    span.me-auto.ps-2.ms-1 Unidad 1
+  
+    router-link.barra-avance__boton--regresar(
+      :class="[!controlLinks.back.name && 'barra-avance__boton--disable']"
+      :to="{name: controlLinks.back.name, hash: controlLinks.back.hash ? `#${controlLinks.back.hash}` : ''}"
+    )
+      div.content
+        i.me-3(class="fas fa-arrow-left")
+        span Regresar
+    
+    //- .barra-avance__barra
+    //-   .barra-avance__barra--blanca
+    //-   .barra-avance__barra--amarilla
+  
+    router-link.barra-avance__boton--siguiente(
+      :class="[!controlLinks.next.name && 'barra-avance__boton--disable']"
+      :to="{name: controlLinks.next.name, hash: controlLinks.next.hash ? `#${controlLinks.next.hash}` : ''}"
+    )
+      div.content
+        span.me-3 Siguiente
+        i(class="fas fa-arrow-right")
+  
+  </template>
 
 <script>
 export default {
@@ -36,13 +36,19 @@ export default {
     menuData() {
       return this.$config.menuPrincipal.menu
     },
+    globalData() {
+      return this.$config.global
+    },
     showBarra() {
       const enIntro = this.$route.fullPath.includes('/introduccion')
+      const enSintesis = this.$route.fullPath.includes('/sintesis')
       const enCurso = this.$route.fullPath.includes('/curso')
       const haveControls =
         (this.controlLinks.next && this.controlLinks.next.name) ||
         (this.controlLinks.back && this.controlLinks.back.name)
-      return !this.menuOpen && (enIntro || enCurso) && haveControls
+      return (
+        !this.menuOpen && (enIntro || enCurso || enSintesis) && haveControls
+      )
     },
     // controlLinks() {
     //   const menuObject = this.menuData.find(
@@ -221,6 +227,20 @@ export default {
             hash: '',
           },
         }
+      } else if (
+        // Si estoy en el ultimo tema
+        this.$route.name === this.menuData[this.menuData.length - 2].nombreRuta
+      ) {
+        return {
+          next: {
+            name: 'sintesis',
+            hash: '',
+          },
+          back: {
+            name: this.menuData[this.menuData.length - 3].nombreRuta,
+            hash: '',
+          },
+        }
       } else if (!menuObject) {
         // SI NO ESTOY EN UN TEMA O SI NO HAY SUBTEMAS --ERROR FALLBACK
         return {
@@ -317,7 +337,7 @@ export default {
 .barra-avance
   display: flex
   align-items: center
-  justify-content: end
+  justify-content: flex-end
   position: fixed
   bottom: 0
   left: 0

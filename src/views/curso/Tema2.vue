@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:titulo="'unidad 1. Bases genéticas del desarrollo humano'" :subTitulo="'2. Principios de genética humana y herencia'")
+  BannerInterno.text-uppercase(:titulo="'unidad 1. Bases genéticas del desarrollo humano'" :subTitulo="'2. Principios de genética humana y herencia'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
 
     .row.mb-5
@@ -10,7 +10,7 @@
           .d-flex.flex-column
             p.text-bold ¿Qué es la genética?
             p.pe-xl-3.mb-0(data-aos="fade-up") La genética es el estudio sobre los mecanismos que intervienen en la transmisión de ciertos genes a la descendencia; por ejemplo, la apariencia física, el color de piel, ojos y cabello. 
-        p Sin embargo, la explicación sobre la herencia no es reciente, tal y como se detalló anteriormente; naturalistas del siglo XVI y XVII, construían explicaciones, de acuerdo con las observaciones que hacían de los fenómenos
+        p Sin embargo, la explicación sobre la herencia no es reciente, tal y como se detalló anteriormente; naturalistas del siglo XVI y XVII, construían explicaciones, de acuerdo con las observaciones que hacían de los fenómenos.
       .d-none.d-xl-block.col-xl-5.col-xxl-4.mx-auto.mt-4.mt-xl-0(data-aos="fade-right")
         img(src='@/assets/curso/unidad/img-22.png', alt='Texto que describa la imagen')  
 
@@ -149,9 +149,9 @@
           tr
             td(rowspan="0").border-none.bg-modaro-oscuro.text-white.text-bold 
               th.mb-2.d-flex.flex-column.align-items-center Homocigoto 
-                p.text-bold dominante (AA)
+                p.text-bold recesivo (Aa)
             td
-            td.text-center.text-bold a
+            td.text-center.text-bold A
             td.text-center.text-bold.border-left-gris a
           tr
             td.text-bold A
@@ -164,7 +164,7 @@
               br
               | Heterocigoto
           tr
-            td.text-bold A
+            td.text-bold a
             td
               | Aa
               br
@@ -213,7 +213,7 @@
           tr
             td.text-bold A (rojo) b (rugoso)
             td AA Bb (rojo y liso)
-            td AA Bb (rojo y liso)
+            td AA Bb (rojo y rugoso)
             td Aa Bb (rojo y liso)
             td Aa bb (rojo y rugoso)
           tr
@@ -299,7 +299,7 @@
               p.text-bold.mb-2 ADN
               p.text-small.pe-4.pe-lg-5.me-xxl-4 Para afianzar los conceptos, lo invitamos a ver el siguiente video: <strong>Khan Academy. (s.f.). AND (video). KKhan Academy</strong>
             .col-sm-auto
-              a.download-btn.boton.bg-morado.text-white(href="https://www.youtube.com/watch?v=w6iJZrI2SHQ" target="_blank")
+              a.download-btn.boton.bg-morado.text-white(href="https://www.educaplus.org/game/genotipo-y-fenotipo" target="_blank")
                 span.text-small Ver video
                 i.fas.fa-arrow-right
 

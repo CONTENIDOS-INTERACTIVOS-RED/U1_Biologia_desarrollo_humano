@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.glosario
-  BannerInterno(icono="fas fa-atlas" subTitulo="GLOSARIO" titulo="FUNDAMENTACIÓN JURÍDICA - unidad 1")
+  BannerInterno.text-uppercase(icono="fas fa-atlas" subTitulo="GLOSARIO" titulo="unidad 1. Bases genéticas del desarrollo humano")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
     .glosario__letra-item.mb-2(v-for="letra in orderedData" :key="'letra-'+letra.letra")
       .glosario__letra-item__letra.me-4

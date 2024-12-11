@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:titulo="'unidad 1. Bases genéticas del desarrollo humano'" :subTitulo="'3. Bases biológicas del desarrollo y diferenciación celular'")
+  BannerInterno.text-uppercase(:titulo="'unidad 1. Bases genéticas del desarrollo humano'" :subTitulo="'3. Bases biológicas del desarrollo y diferenciación celular'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     .row.mb-5.mx-0
       .d-none.d-xl-block.col-4.px-0

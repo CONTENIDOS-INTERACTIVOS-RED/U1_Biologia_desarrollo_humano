@@ -1,6 +1,6 @@
 <template lang="pug">
   .curso-main-container.pb-3
-    BannerInterno(:titulo="'unidad 1. Bases genéticas del desarrollo humano'" :subTitulo="'4. Factores genéticos y ambientales en el desarrollo humano'")
+    BannerInterno.text-uppercase(:titulo="'unidad 1. Bases genéticas del desarrollo humano'" :subTitulo="'4. Factores genéticos y ambientales en el desarrollo humano / Influencia de la genética en el desarrollo cognitivo, emocional y conductual'")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
       .row.mb-4.mx-0
         .d-none.d-xl-block.col-4.px-0
@@ -55,7 +55,7 @@
                 p.text-bold.mb-2 Factores genéticos y ambientales en el desarrollo humano
                 p.text-small.pe-4.pe-lg-5.me-xxl-4 Para profundizar sobre los factores genéticos y ambientales en el desarrollo humano, lo invitamos a consultar el PDF.   
               .col-sm-auto
-                a.download-btn.boton.bg-morado.text-white(:href="obtenerLink('/downloads/Anexo_Biología_del_desarrollo_humano.pdf')" target="_blank")
+                a.download-btn.boton.bg-morado.text-white(:href="obtenerLink('/downloads/Anexo_Intersecciones_en_herencia_y_aprendizaje.pdf')" target="_blank")
                   span.text-small Descargar
                   i.fas.fa-arrow-right
 
