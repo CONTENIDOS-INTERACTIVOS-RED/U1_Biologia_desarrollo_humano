@@ -1,14 +1,14 @@
 <template>
   <div class="tarjeta--blanca">
     <div class="row align-items-center mb-4">
-      <div class="col-auto">
+      <!-- <div class="col-auto">
         <img src="@/assets/componentes/icon-actividad.svg" alt="" />
-      </div>
+      </div> -->
       <div class="col ">
         <h2 class="titulo-tercero mb-0">
           {{ cuestionario.titulo }}
         </h2>
-        <p class="mb-0" v-html="cuestionario.introduccion"></p>
+        <!-- <p class="mb-0" v-html="cuestionario.introduccion"></p> -->
       </div>
     </div>
     <div class="tarjeta tarjeta--lightest-gray px-4 pb-4 pt-4 px-md-5">

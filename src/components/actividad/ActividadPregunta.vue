@@ -6,9 +6,9 @@
       ></strong>
     </h3>
     <div class="row align-items-center">
-      <div class="d-none d-md-block col-5">
+      <!-- <div class="d-none d-md-block col-5">
         <img :src="pregunta.imagen" alt="" />
-      </div>
+      </div> -->
       <div class="col">
         <div
           v-for="(respuesta, idx) in opcionesComputed"
@@ -105,7 +105,8 @@ img
 .tarjeta--pregunta
   background: #dce4eb
 .tarjeta-respuesta
-  border: 2px solid transparent
+  border: 2px solid black
+  background-color: #fff
   cursor: pointer
   transition: border-color 0.2s
   &:hover
