@@ -18,7 +18,20 @@ async function buildAndPackage() {
       })
     })
 
-    // 2. Crear directorio downloads si no existe
+    // 2. Borrar el archivo ZIP existente en dist/downloads si existe
+    const distDownloadsDir = path.join(__dirname, 'dist', 'downloads')
+    const zipPathInDist = path.join(distDownloadsDir, 'material.zip')
+    try {
+      await fs.unlink(zipPathInDist)
+      console.log('Archivo ZIP anterior eliminado de dist/downloads')
+    } catch (error) {
+      // Si el archivo no existe, ignoramos el error
+      if (error.code !== 'ENOENT') {
+        throw error
+      }
+    }
+
+    // 3. Crear directorio public/downloads si no existe
     const downloadsDir = path.join(__dirname, 'public', 'downloads')
     try {
       await fs.access(downloadsDir)
@@ -26,7 +39,7 @@ async function buildAndPackage() {
       await fs.mkdir(downloadsDir, { recursive: true })
     }
 
-    // 3. Crear ZIP usando el comando del sistema operativo
+    // 4. Crear ZIP usando el comando del sistema operativo
     console.log('Creando archivo ZIP...')
     await new Promise((resolve, reject) => {
       const zipCommand =

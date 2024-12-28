@@ -45,7 +45,7 @@
       p.text-bold.mb-4 La relación entre la herencia genética y el ambiente o entorno, es inevitable en el desarrollo físico, cognitivo, psicosocial y moral.
       p.mb-4(data-aos="zoom-in") Al igual que el ser humano efectúa 4 potencialidades desarrolladas de la herencia, el ambiente influye también al ser humano en 4 potencialidades. Los rasgos físicos del individuo se desarrollarán en un ambiente físico, los rasgos mentales del mismo se desarrollarán en los ambientes mentales, los rasgos psicológicos o emocionales se desarrollan en ambientes emocionales y los rasgos sociales se desarrollarán en ambientes culturales y sociales.
 
-      .tarjeta.box-shadow.p-3
+      .tarjeta.box-shadow.p-3.mb-5
         .row.justify-content-around.align-items-center
           .col-3.col-sm-2.col-lg-1
             img(src="@/assets/componentes/pdf-icon-circle.svg")
@@ -59,7 +59,23 @@
                   span.text-small Descargar
                   i.fas.fa-arrow-right
 
-
+      .bg-full-width.border-top-9-azul
+        .px-4.px-md-5.pt-5.pb-0
+          h2 Material complementario
+          .row
+            .col-12.col-md-6.col-lg-8
+              p.d-flex.my-4
+                img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+                a.text-small.text-primary(target="_blank", href="https://elibro.net/es/ereader/tecnologicadeloriente/122741") Ayala, F (2017). ¿Clonar Humanos? Ingeniería Genética y Futuro de la Humanidad. Alianza Editorial.
+              p.d-flex.my-4
+                img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+                a.text-small.text-primary(target="_blank", href="https://ve.scielo.org/scielo.php?script=sci_arttext&pid=S0535-51332014000400008") Árvelo, F., Cotte, C., Sojo, F. (2014). Células madre y Cáncer. Revista Invest. clín.
+              p.d-flex.my-4
+                img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+                a.text-small.text-primary(target="_blank", href="https://www.youtube.com/watch?v=NYmNdmVRPYQ") Televisión Pública. Todo tiene un por qué [Vídeo]
+            .col-12.col-md-6.col-lg-3
+              figure
+                img(src='@/assets/componentes/material-complementario.svg', alt='Imagen de material complementario')
 
 
   </template>

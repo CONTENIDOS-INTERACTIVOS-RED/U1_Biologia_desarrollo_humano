@@ -139,11 +139,32 @@
       .col-12.col-lg-5.d-none.d-lg-block(data-aos="fade-left")
         img.-mt-18px(src='@/assets/curso/unidad/img-19.png', alt='Texto que describa la imagen')
 
-    .row
+    .row.mb-5
       .d-flex.align-items-center
         div.d-flex.align-items-center.bg-gris.px-3.py-4
           img.me-4(style="width: 90px" src='@/assets/curso/unidad/img-20.svg', alt='Texto que describa la imagen')
           p.pe-xl-3.mb-0(data-aos="fade-up") Después del desarrollo tecnológico de los microscopios y de las explicaciones experimentales futuras sobre la herencia, ambas explicaciones, la de los espermistas y la de los ovistas, quedaron totalmente refutadas.
+
+    .bg-full-width.border-top-9-azul
+      .px-4.px-md-5.pt-5.pb-0
+        h2 Material complementario
+        .row
+          .col-12.col-md-6.col-lg-8
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="#") Curtis H., Barnes N., Massarini A., Schnerck A. (2008). BIOLOGÍA. Capítulo 8. Desarrollo: de la ejecución de un programa genético. Editorial Médica Panamericana.
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://bibliotecas.unr.edu.ar/muestra/medica_panamericana/9789500602693.pdf") Solari, A. J (2007). Capítulo 1. Desarrollo Histórico de la Genética Humana. Genética Humana: fundamentos y aplicaciones en medicina.
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://www.youtube.com/watch?v=w6iJZrI2SHQ") Mangelciencia. Ciclo Celular y sus fases [Vídeo]
+          .col-12.col-md-6.col-lg-3
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='Imagen de material complementario')
+
+
+
 </template>
 
 <script>

@@ -133,11 +133,27 @@
 
     p.mb-5 El estudio de este tipo de células, ha permitido avanzar con investigaciones aplicadas en tratamientos médicos y en la ingeniería genética.
 
-    .row
+    .row.mb-5
       .d-flex.align-items-center
         div.d-flex.align-items-center.bg-gris.px-3.py-4
           img.me-4(style="width: 90px" src='@/assets/curso/unidad/img-47.svg', alt='Texto que describa la imagen')
           p.pe-xl-3.mb-0(data-aos="fade-up") Por ejemplo, el trasplante de células madre a personas que padecen algunos tipos de cáncer, permite restaurar las células que forman la sangre después de un tratamiento de quimioterapia o radioterapia; también se usan en algunos tipos de padecimientos como enfermedades autoinmunes o con trastornos sanguíneos.
+
+
+    .bg-full-width.border-top-9-azul
+      .px-4.px-md-5.pt-5.pb-0
+        h2 Material complementario
+        .row
+          .col-12.col-md-6.col-lg-8
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://www.elsevier.es/es-revista-revista-medica-clinica-las-condes-202-articulo-neurodesarrollo-humano-un-proceso-cambio-S0716864022000724") Förster, J. López, I. (2022). Neurodesarrollo humano: un proceso de cambio continuo de un sistema abierto y sensible al contexto.
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://www.youtube.com/watch?v=z2sICp8E1BA") Biointeractive. Traducción (descripción detallada) [Vídeo]
+          .col-12.col-md-6.col-lg-3
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='Imagen de material complementario')
 
 </template>
 

@@ -289,7 +289,7 @@
         img(src='@/assets/curso/unidad/img-34.png', alt='Texto que describa la imagen')  
 
 
-    .tarjeta.box-shadow.p-3
+    .tarjeta.box-shadow.p-3.mb-5
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
           img(src="@/assets/componentes/video-icon-circle.svg")
@@ -303,7 +303,20 @@
                 span.text-small Ver video
                 i.fas.fa-arrow-right
 
-
+    .bg-full-width.border-top-9-azul
+      .px-4.px-md-5.pt-5.pb-0
+        h2 Material complementario
+        .row
+          .col-12.col-md-6.col-lg-8
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/ereader/tecnologicadeloriente/36344") Gutiérrez, F. (2010). Capítulo 2: Reproducción Celular. Biología: la célula. Firmas Press.
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://www.youtube.com/watch?v=E_ImINFRrq4") Nutrimente. La Transcripción del ADN al ARN [Vídeo]
+          .col-12.col-md-6.col-lg-3
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='Imagen de material complementario')
 
 </template>
 
