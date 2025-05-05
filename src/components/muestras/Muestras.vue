@@ -660,15 +660,6 @@ div.mb-5
       .h5.mb-2 titulo
       p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
 
-  h3 Imagen zoom
-
-  .position-relative(@mouseover="indicadorImagenZoom = false")
-    Zoom(
-      lente="200" 
-      :baja-resolucion="require('@/assets/curso/baja.jpeg')" 
-      :alta-resolucion="require('@/assets/curso/alta.jpeg')"
-    )
-    .indicador--hover(v-if="indicadorImagenZoom")
   Separador
 
   #video.titulo-segundo.color-acento-botones
